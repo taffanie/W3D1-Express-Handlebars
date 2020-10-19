@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+body {
+    background: url(https://images.unsplash.com/photo-1453227588063-bb302b62f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80) no-repeat center center fixed;
+}
+
+a {
+    font-family: 'Sofia', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 64px;
+}
+
+.about, .bookings, .greeting {
+    position: fixed;
+    left: 70%;
+    top: 20%;
+}
+
+.about, .bookings, .greeting, .link {
+    font-family: 'Croissant One', cursive;
+}
+
+.link {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+
